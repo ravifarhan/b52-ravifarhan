@@ -1,0 +1,73 @@
+.card {
+    background-color: #f4f3f3;
+    display: flex;
+    margin: 50px auto;
+    width: 80%;
+    border: 0px solid;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 10px;
+}
+
+.card-right{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-left: 10px;
+    margin-right: 100px;
+    align-items: center;
+    border-radius: 2%;
+    border: 0px solid;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.img-profile{
+    width: 300px ;
+    height: 350px;
+    box-shadow: 0px 0px 5px 0px white;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    align-content: center;
+
+}
+
+.btn-contact{
+    padding: 6px;
+    background-color: #111727;
+    color: white;
+    width: 90px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.contact-cv{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.btn-download{
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+
+.icon-download{
+    height: 25px;
+}
+
+.icon-sosmed{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+}
+
