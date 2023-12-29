@@ -38,17 +38,19 @@
             <input class="input-style" id="email" />
             <label class="label-style" for="phoneNumber">Phone Number</label>
             <input class="input-style" id="phoneNumber" />
-            <label class="label-style">Subject</label>
-            <select class="input-style" >
+            <label class="label-style" for="subject">Subject</label>
+            <select class="input-style" id="subject" >
                 <option>Frontend Developer</option>
                 <option>Backend Developer</option>
                 <option>Fullstack Developer</option>
             </select>
             <label class="label-style" for="message">Your Message</label>
             <textarea class="input-style" id="message"></textarea>
-            <a href="#" class="btn-submit">submit</a>
+            <button class="btn-submit" onclick="submitData()">Submit</button>
         </div>
     </div>
+
+<script src="assets/js/contact.js"></script>
 </body>
 
 </html>
