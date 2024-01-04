@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - My Project</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/project.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head> 
+
+<nav class="navbar">
+    <ul class="navbar-ul">
+        <div class="navbar-left">
+            <li>
+                <img src="assets/img/dumbways.png" class="navbar-img" />
+            </li>
+            <li>
+                <a href="index.html" class="navbar-link"> Home </a>
+            </li>
+            <li>
+                <a href="project.html" class="navbar-link active"> My Project </a>
+            </li>
+        </div>
+        <div class="navbar-right">
+            <li>
+                <a href="contact.html" class="navbar-btn"> Contact Me </a>
+            </li>
+        </div>
+    </ul>
+</nav>
+<body>
+    <div class="project">
+        <div class="project-form">
+            <div class="form-container">
+                <form onsubmit="addProject(event)">
+                    <h1>ADD MY PROJECT</h1>
+                    <div>
+                        <label for="project-name">Project Name</label>
+                        <input id="project-name" />
+                    </div>
+                    <div class="input-project-date">
+                        <div class="form-group project-date">
+                            <label for="start-date">Start Date</label>
+                            <input type="date" id="start-date" />
+                        </div>
+                        <div class="form-group project-date">
+                            <label for="end-date">End Date</label>
+                            <input type="date" id="end-date" />
+                        </div>        
+                    </div>
+                    <div>
+                        <label for="description">Description</label>
+                        <textarea id="description"></textarea>
+                    </div>
+                    <label for="technology">Technologies</label>
+                    <div class="input-checkbox">
+                        <div class="checkbox-group">
+                            <input type="checkbox"  class="checkbox-style" id="nodejs" value="Node Js"/>
+                            <label for="nodejs">Node Js</label>
+                            <input type="checkbox" class="checkbox-style" id="vuejs" value="Vue Js"  />
+                            <label for="vuejs">Vue Js</label>
+                        </div>
+                        <div class="checkbox-group2">
+                            <input type="checkbox"  class="checkbox-style" id="reactjs" value="React Js" />
+                            <label for="reactjs">React Js</label>
+                            <input type="checkbox" class="checkbox-style" id="golang"  value="golang"  />
+                            <label for="golang">Golang</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Upload Image</label>
+                        <div class="input-project-image-group">
+                            <label for="project-image">
+                                <p>Choose</p>
+                                <img src="assets/icon/file.png" alt="file" />
+                            </label>
+                            <input type="file" id="project-image" hidden/>
+                        </div>
+                    </div>
+                    <div class="button-submit">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="title-project">
+            <h1>My Project</h1>
+        </div>
+        <div id="contents" class="project-list">
+            
+        </div>
+    </div>
+
+
+<script src="assets/js/project.js"></script>
+</body>
+</html>

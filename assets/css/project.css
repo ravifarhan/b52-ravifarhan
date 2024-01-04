@@ -1,0 +1,209 @@
+.project-form {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-container {
+    width: 600px;
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .project-form label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .input-project-date {
+    display: flex; 
+    flex-direction: row; 
+    gap: 50px; 
+    justify-content: center; 
+  }
+
+  .project-form form input,
+  textarea,
+  select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+  }
+  
+  .project-form textarea {
+    height: 150px;
+  }
+
+  .input-checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .checkbox-group label {
+    margin-right: 50px;
+    color: #514a4a;
+  }
+  .checkbox-group2 label {
+    margin-right: 45px;
+    color: #514a4a;
+  }
+
+  .input-checkbox .checkbox-style{
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .input-project-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .input-project-image-group label p {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    
+  }
+  
+  .input-project-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .button-submit {
+    text-align: right;
+  }
+  
+  .button-submit button {
+    margin-top: 20px;
+    padding: 3px 30px;
+    font-size: 15px;
+    background-color:#111727;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+  }
+
+.title-project{
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+}
+
+.project-list {
+  background-color: white;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-list-item {
+  width: 25%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #dbdbdb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-content p {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.icon{
+  display: flex;
+  font-size: 30px;
+  gap: 10px;
+  margin-top: 20px;
+  
+}
+
+.btn-group {
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.btn-edit {
+  width: 100%;
+  padding: 1px 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color:#111727;
+}
+
+.btn-post {
+  width: 100%;
+  padding: 1px 50px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color:#111727;
+}
+
+.project-list h3 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.detail-project-content {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color:#514a4a;
+}
+
+.project-list-item p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+
