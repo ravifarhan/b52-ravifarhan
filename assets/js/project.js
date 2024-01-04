@@ -1,11 +1,4 @@
-const projects = [{
-    projectName      : "Mugiwara",
-    year             : "2024",
-    description      : "Mongkey D. Luffy",
-    linkImage        : "assets/img/luffy.png",
-    durationResult   : "1 Bulan",
-    iconTech         : `<i class="fa-brands fa-node-js"></i> <i class="fa-brands fa-vuejs"></i> <i class="fa-brands fa-react"></i> <i class="fa-brands fa-golang"></i>`,
-}]
+const projects = []
 
 function addProject(e) {
     e.preventDefault()
