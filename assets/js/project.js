@@ -6,10 +6,10 @@ function addProject(e) {
     const description = document.getElementById('description').value
     const starDates   = document.getElementById('start-date').value
     const endDates    = document.getElementById('end-date').value
-    const nodejs      = document.getElementById('nodejs').value
-    const vuejs       = document.getElementById('vuejs').value
-    const reactjs     = document.getElementById('reactjs').value
-    const golang      = document.getElementById('golang').value
+    const nodejs      = document.getElementById('nodejs')
+    const vuejs       = document.getElementById('vuejs')
+    const reactjs     = document.getElementById('reactjs')
+    const golang      = document.getElementById('golang')
     const img         = document.getElementById('project-image').files
     const linkImage   = URL.createObjectURL(img[0])
     
