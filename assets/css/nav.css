@@ -48,3 +48,49 @@
     margin-top: 20px;
     text-decoration: none;
 }
+
+.menu-navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+}
+
+.menu-navbar-link {
+    display: none;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#menu-button {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+
+.menu-active{
+    background-color: #111727;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-link {
+        display: none;
+    }
+
+    .navbar-btn {
+        display: none;
+    }
+
+    .menu-navbar-link {
+        display: block;
+    }
+
+    #menu-button {
+        display: block;
+    }
+}

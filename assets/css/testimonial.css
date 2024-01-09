@@ -37,3 +37,18 @@
   margin-bottom: 20px;
 }
 
+
+@media only screen and (max-width: 768px) {
+  
+  .testimonial-content{
+    display: block;
+  }
+
+  .testimonial-list {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+}
+
