@@ -1,0 +1,39 @@
+.testimonial{
+  width: 100%;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.testimonial-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.testimonial-list {
+  width: 25%;
+  margin: 0px 15px 30px 15px;
+  padding: 20px;
+  background-color: #f4f3f3;
+  border: 1px solid #c4c4c4;
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px; 
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.description {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
