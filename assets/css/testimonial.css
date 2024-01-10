@@ -27,7 +27,8 @@
 }
 
 .author {
-  text-align: right;
+  display: flex;  
+  justify-content: space-between;
   font-weight: bold;
   font-style: italic;
 }
@@ -35,6 +36,28 @@
 .description {
   text-align: left;
   margin-bottom: 20px;
+}
+
+.container-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-btn {
+  margin: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 10px;
+  color:  #111727;
+  cursor: pointer;
+}
+
+.active-btn{
+  color: white;
+  background-color: #111727;
 }
 
 

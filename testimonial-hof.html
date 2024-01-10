@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 - My Testimonial</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/testimonial.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+</head> 
+<body>
+
+<nav class="navbar">
+    <ul class="navbar-ul">
+        <div class="navbar-left">
+            <li>
+                <img src="assets/img/dumbways.png" class="navbar-img" />
+            </li>
+            <li>
+                <a href="index.html" class="navbar-link"> Home </a>
+            </li>
+            <li>
+                <a href="project.html" class="navbar-link"> My Project </a>
+            </li>
+            <li>
+                <a href="testimonial.html" class="navbar-link active"> My Testimonial </a>
+            </li>
+        </div>
+        <div class="navbar-right">
+            <li>
+                <a href="contact.html" class="navbar-btn"> Contact Me </a>
+            </li>
+            <i class="fa-solid fa-bars fa-2x" id="menu-button" onclick="openMenu()"></i>
+        </div>
+    </ul>
+    <div id="menu-navbar" class="menu-navbar hidden">
+        <a class="menu-navbar-link" href="index.html">Home</a>
+        <a class="menu-navbar-link" href="project.html">My Project</a>
+        <a class="menu-navbar-link menu-active" href="testimonial-hof.html">My Testimonial</a>
+        <a class="menu-navbar-link" href="contact.html">Contact Me</a>
+    </div>
+</nav>
+
+<div class="testimonial">
+    <div class="testimonial-title">
+        <h1>Testimonials</h1>
+    </div>
+    <div class="container-rating">
+        <h3> Rating By Star</h3>
+        <div class="rating">
+            <button class="rating-btn active-btn" onclick="allTestimonial()">
+                All
+            </button>
+            <button class="rating-btn" onclick="filterTestimonial('⭐')">
+                1 <i class="fa-solid fa-star"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonial('⭐⭐')">
+                2 <i class="fa-solid fa-star"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonial('⭐⭐⭐')">
+                3 <i class="fa-solid fa-star"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonial('⭐⭐⭐⭐')">
+                4 <i class="fa-solid fa-star"></i>
+            </button>
+            <button class="rating-btn" onclick="filterTestimonial('⭐⭐⭐⭐⭐')">
+                5 <i class="fa-solid fa-star"></i>
+            </button>
+        </div>
+    </div>
+    <div id="testimonial-content" class="testimonial-content">
+        
+    </div>
+</div>
+
+
+<script src="assets/js/testimonial-hof.js"></script>
+<script src="assets/js/nav.js"></script>
+</body>
+</html>
